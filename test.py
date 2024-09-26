@@ -25,4 +25,4 @@ def update_bar_chart(dims):
     return fig
 
 
-app.run_server(debug=True)
+app.run_server(debug=True,host="0.0.0.0",port=8050)
